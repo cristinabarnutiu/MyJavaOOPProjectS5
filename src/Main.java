@@ -75,6 +75,58 @@ public class Main {
 
         System.out.println(jon.fname);
 
+        Animal dog = new Animal("Rex","black",false);
+        Animal cat = new Animal("Kitty","orange");
+
+        dog.mananca();
+        dog.doarme();
+        System.out.println(dog.afiseazaCuloare());
+
+        cat.mananca();
+        cat.doarme();
+        System.out.println(cat.afiseazaCuloare());
+
+        //System.out.println(dog.name);
+
+        Elev elev1 = new Elev("Popescu Andrei",9.68);
+        Elev elev2 = new Elev("Ionescu Alina", 9.82);
+        elev2.medieGenerala = 8.00;
+        elev2.nume = "Pop Alina";
+        Elev.diriginte = "noul dirig";
+
+        elev1.afisareElev();
+        elev2.afisareElev();
+
+        EchipaFotbal echipa1 = new EchipaFotbal("Romania", 4);
+        EchipaFotbal echipa2 = new EchipaFotbal("Belgia", 6);
+        EchipaFotbal.campionat = "Euro 2024";
+        EchipaFotbal.campionat = "Campionatul Mondial";
+
+        echipa1.afiseaza();
+        echipa2.afiseaza();
+
+        EchipaFotbal.metodaStatica();
+
+        Fotbalist fotbalist1 = new Fotbalist("Hagi");
+        Voleibalist voleibalist1 = new Voleibalist();
+
+        fotbalist1.seAntreneaza();
+        fotbalist1.seRecupereaza();
+        voleibalist1.seAntreneaza();
+        voleibalist1.seRecupereaza();
+
+        Cat cat1 = new Cat("Pisi","orange",false,"terestru");
+        cat1.scoateSunete();
+        Dog dog1 = new Dog("Azorel","brown",false,"terestru");
+        dog1.scoateSunete();
+
+
+        }
+
+
+
+
+
+
 
     }
-}

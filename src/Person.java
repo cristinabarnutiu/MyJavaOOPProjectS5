@@ -1,5 +1,5 @@
 public class Person {
-    int birthYear; //better to store birth year
+    int birthYear;
     char sex;
     String fname;
     String lname;
