@@ -1,3 +1,5 @@
+package animale;
+
 public class Mamifer extends Animal{
     String tipMamifer;
 
@@ -7,8 +9,6 @@ public class Mamifer extends Animal{
     }
 
     public void scoateSunete(){
-        System.out.println(name+" scoate sunete");
+        System.out.println(this.name+" scoate sunete");
     }
-
-
 }

@@ -5,19 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d5fb2c7-d4d6-41c6-b0bf-d8b5ffec7dfd" name="Changes" comment="Curs 19.06.2024">
-      <change afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EchipaFotbal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elev.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fotbalist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FotbalistAmerican.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mamifer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sportiv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Voleibalist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructures/Liste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfete/ClassC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfete/InterfataA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfete/InterfataB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sporturi/Abilitate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animale/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animale/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animale/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fotbalist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sporturi/Fotbalist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FotbalistAmerican.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sporturi/FotbalistAmerican.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mamifer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animale/Mamifer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sportiv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sporturi/Sportiv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Voleibalist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sporturi/Voleibalist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,13 +50,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />

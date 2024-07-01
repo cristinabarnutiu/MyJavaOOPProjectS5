@@ -1,3 +1,9 @@
+import animale.Animal;
+import animale.Cat;
+import animale.Dog;
+import sporturi.Fotbalist;
+import sporturi.Voleibalist;
+
 public class Main {
     public static void main(String[] args) {
         //System.out.println("Hello world!");
@@ -115,11 +121,21 @@ public class Main {
         voleibalist1.seAntreneaza();
         voleibalist1.seRecupereaza();
 
+        //ex optionale mostenire
         Cat cat1 = new Cat("Pisi","orange",false,"terestru");
         cat1.scoateSunete();
-        Dog dog1 = new Dog("Azorel","brown",false,"terestru");
+
+        Dog dog1 = new Dog("Grivei","multicolor",false,"terestru");
         dog1.scoateSunete();
 
+        Movie movie1 = new Movie();
+        movie1.setTitlu("Titanic");
+        movie1.setTipFilm("drama");
+        movie1.setIMDBrating(8.7);
+
+        System.out.println(movie1.getTitlu()+" "+movie1.getTipFilm()+" "+movie1.getIMDBrating());
+
+        fotbalist1.afiseazaDinSuperclasa();
 
         }
 

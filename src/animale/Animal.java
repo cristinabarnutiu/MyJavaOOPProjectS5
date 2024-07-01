@@ -1,3 +1,5 @@
+package animale;
+
 public class Animal {
     String name;
     String colour;
